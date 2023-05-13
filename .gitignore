@@ -1,0 +1,17 @@
+# Ignorar directorios
+node_modules/
+dist/
+.vscode/
+
+# Ignorar archivos específicos
+secret_config.js
+credentials.json
+
+# Ignorar archivos con una extensión específica
+*.log
+*.tmp
+
+#Ignorar keys
+id_rsa
+.pem
+.key 
