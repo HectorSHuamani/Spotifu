@@ -40,10 +40,6 @@ git push origin feature/your-feature-name
 
 5. Create a new pull request.
 
-## License
-
-[Specify the license you choose for your project]
-
 ## Contact
 
-For any inquiries or feedback, please contact [Your Name] at [your-email@example.com].
+For any inquiries or feedback, please contact Héctor Soto at developer.hec@gmail.com
