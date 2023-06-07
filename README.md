@@ -1,6 +1,7 @@
 # Spotifu
 
-![Spotifu Logo]([images/spotifu-logomark.png])
+<img src="https://hectorshuamani.github.io/LogoSpotifu/" alt="Logo Spotifu">
+
 
 Spotifu is a web application that allows users to discover and listen to their favorite music. It provides a seamless and user-friendly experience with a wide range of features.
 
