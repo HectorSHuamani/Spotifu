@@ -28,6 +28,8 @@
 .layout-bottom {
     flex: 1;
     block-size: var(--bottomSize);
+    width: auto;
+    height: auto;
 
 }
 

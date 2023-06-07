@@ -25,6 +25,7 @@
 }
 .buttonIcon:active {
     transform: scale(.95);
+    /* border: 1px solid red; */
 }
 
 .buttonIcon:hover:is([class*='is-']) {

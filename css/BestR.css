@@ -1,0 +1,57 @@
+.hitsPlaylist {
+    /* border: solid 1px red; */
+    display: flex;
+    margin-left: .55rem;
+    color: var(--white);
+    
+}
+
+.Title {
+    color: var(--white);
+}
+
+.hitsInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+}
+
+.hitsS {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hitsS h5 {
+    margin: 0;
+    font-weight: normal;
+  }
+
+
+.hitsPlaylist {
+    /* border: solid 1px red; */
+    display: flex;
+}
+
+.title {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0.75rem;
+}
+
+.hitsInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.625rem; 
+}
+
+
+/* .r-img{
+    border: solid 1px red;
+} */
+
+

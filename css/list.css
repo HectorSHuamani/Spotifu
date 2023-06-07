@@ -1,6 +1,7 @@
 .list {
     padding-inline-start: 1.5rem;
     padding-inline-end: 1.5rem;
+    /* border: 1px solid red; */
 }
 
 .list-title {
@@ -25,4 +26,5 @@
 .list-item a {
     font: var(--baseFontBold);
     transition: color .2s;
+    /* border: 1px solid red; */
 }

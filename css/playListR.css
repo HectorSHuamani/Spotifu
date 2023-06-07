@@ -1,0 +1,262 @@
+/* Estilos para el contenedor principal */
+.hitsTitle {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    color: var(--white);
+  }
+  
+  /* Estilos para el título "Hits del Artista Favorito" */
+.Title {
+    text-align: center;
+  }
+  
+  /* Estilos para el segmento "Residente & 3.136.958 oyentes mensuales" */
+.hitsSubtitle {
+    /* border: solid 1px red; */
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Estilos para los h5 dentro de .hitsSubtitle */
+.hitsSubtitle h5 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  /* Estilos para el texto "REPRODUCIR" */
+.hitsReproducir {
+    text-align: center;
+    margin-top: 16px; /* Ajusta el valor según sea necesario */
+  }
+
+/* Estilos para el botón de reproducir */
+.reproducirBtn {
+    width: 153px;
+    height: 32px;
+    border-radius: 70px;
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+.reproducirBtn:active{
+  transform: scale(.95);
+}
+
+.reproducirBtn:hover:is([class*='is-']) {
+  box-shadow: 0 8px 8px rgba(0,0,0,.3);
+}
+  
+.background-img {
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:auto; 
+    height:auto;
+    transform: translate(-20%, -28%);
+  }
+  
+.background-img::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    z-index: 1;
+}
+
+.background-img::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    z-index: 2;
+}
+
+  
+.transparent-form {
+    background-color: transparent;
+  }
+  
+.transparent-form input[type="search"] {
+    color: var(--white);
+    background-color: transparent;
+    border: none;
+  }
+
+.transparent-form input[type="search"]::-ms-clear {
+    color: var(--primary); 
+  }
+  
+.transparent-form input[type="search"]::-webkit-search-cancel-button,
+.transparent-form input[type="search"]::-moz-search-cancel {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: var(--primary)
+   }
+
+
+/* Cuadro de los albums de Residente */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    /* padding: 0.25rem; */
+    text-align: left;
+    /* border: 1px solid red; */
+}
+
+td.title {
+  width: 20.188rem;
+  color: var(--white);
+}
+
+td.artist {
+  width: 20.188rem;
+  color: var(--white);
+}
+
+td.album {
+  width: 20.188rem;
+  color: var(--white);
+}
+
+td.calendar {
+  width: 5.625rem;
+}
+
+td.clock {
+  width: 2.938rem;
+  /* border: 1px solid red; */
+}
+
+
+/* td.button1,
+td.button2 {
+  width: 2.75rem;
+  height: 2.75rem;
+  box-sizing: border-box; 
+} */
+
+
+thead th {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: transparent;
+}
+
+tbody tr:hover {
+    background-color: transparent;
+}
+
+th:first-child,
+td:first-child {
+    /* Estilos para la columna "Play" */
+    width: 2.5rem;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    /* Estilos para la columna "Corazón" */
+    width: 3.25rem;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+
+
+/* Estilos de los botones  */
+.buttonPlay{
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  background: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.buttonPlay .icon-play {
+  background: transparent;
+  color: var(--white);
+  border-radius: 50%;
+  padding: 0.438rem;
+  border: solid 0.063rem var(--white);
+  font-size: 0.542rem;
+}
+
+.buttonPlay:active{
+  transform: scale(.95);
+}
+
+.buttonPlay:hover:is([class*='is-']) {
+  box-shadow: 0 8px 8px rgba(0,0,0,.3);
+}
+
+.buttonHeart{
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.buttonHeart .icon-heart {
+  background: transparent;
+  color: var(--white);
+  padding: 0.438rem;
+  font-size: 1.125rem;
+}
+
+.buttonHeart:active{
+  transform: scale(.95);
+}
+
+/* Solucionado el problema de la altura de las celdas */
+td.title,
+td.artist,
+td.album,
+td.calendar,
+td.clock,
+table tbody tr td.title,
+table tbody tr td.artist,
+table tbody tr td.album,
+table tbody tr td.calendar,
+table tbody tr td.clock {
+  height: auto !important;
+  line-height: .625rem !important;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+
+.layout-bottom {
+  background: var(--gray50);
+}
+
+
