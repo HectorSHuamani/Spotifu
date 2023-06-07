@@ -42,4 +42,4 @@ git push origin feature/your-feature-name
 
 ## Contact
 
-For any inquiries or feedback, please contact Héctor Soto at developer.hec@gmail.com
+For any inquiries or feedback, please contact with me at developer.hec@gmail.com
